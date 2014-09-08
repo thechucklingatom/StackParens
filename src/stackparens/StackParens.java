@@ -27,9 +27,10 @@ public class StackParens {
             char ch = input.charAt(i);
             System.out.println(ch);
             try{
-                
+                myStack.pop();
             }catch(EmptyStackException | FullStackException e){
-                
+                System.out.println(e.toString());
+                break;
             }
             
         };
