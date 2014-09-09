@@ -1,4 +1,6 @@
 package stackparens;
+
+//Stolen erm "borrowed" from the book
 /**
 * Runtime
 *
@@ -12,8 +14,9 @@ public class FullStackException extends RuntimeException {
         super( err); 
     } 
     
+    //in case they enter more than 1000 parens
     public String toString(){
-        return("Stack Empty, Mismatched Parens )");
+        return("Too many Parens)");
     }
 
 }

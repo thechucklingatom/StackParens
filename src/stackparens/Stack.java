@@ -1,5 +1,7 @@
 package stackparens;
 
+//Stolen erm "borrowed" from the book 
+
 /**
 * Interface for a stack: a collection of objects that are inserted
 * and removed according to the last-in first-out principle. This

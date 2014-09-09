@@ -1,4 +1,6 @@
 package stackparens;
+
+//Stolen erm "borrowed" from the book
 /**
 * Runtime
 *
@@ -13,7 +15,7 @@ public class EmptyStackException extends RuntimeException {
         
         
     } 
-    
+    //this is for the extra end paren
     public String toString(){
         return("Stack Empty, Mismatched Parens )");
     }

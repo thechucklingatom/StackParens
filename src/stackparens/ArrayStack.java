@@ -1,4 +1,6 @@
 package stackparens;
+
+//Stolen erm "borrowed" from the book
 /**
 * Implementation of the stack ADT using a fixed-length array. An
 * exception is thrown if a push operation is attempted when the size 
