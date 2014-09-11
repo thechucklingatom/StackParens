@@ -20,7 +20,7 @@ public class StackParens {
         boolean willBreak = false;
         String input;
         Scanner reader = new Scanner(System.in);
-        ArrayStack myStack = new ArrayStack();
+        NodeStack myStack = new NodeStack();
         //ask for input
         System.out.print("Please enter a string. > ");
         //get input
